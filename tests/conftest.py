@@ -23,7 +23,7 @@ def run_uvicorn(uvicorn: Any) -> None:
     uvicorn_run(app, host=uvicorn["host"], port=uvicorn["port"])
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture(scope="session")
 def get_server(request: pytest.FixtureRequest, command_line_args: dict[str, str]) -> Generator[Any, None, None]:
     if command_line_args["server"]:
         yield command_line_args["server"]
@@ -101,7 +101,7 @@ def command_line_args(request: SubRequest) -> dict[str, Any]:
     return {"server": request.config.getoption("--server"), "version": request.config.getoption("--tad-version")}
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture(scope="session")
 def validate_version(command_line_args: dict[str, str], get_server: str) -> str:
     transport = httpx.HTTPTransport(retries=5, local_address="127.0.0.1")
     response_version = "Unknown"
