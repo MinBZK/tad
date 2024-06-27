@@ -329,4 +329,4 @@ jobs:
       - name: Run pytest
         # staging: https://tad.stag.apps.digilab.network
         # production: https://tad.prd.apps.digilab.network/
-        run: poetry run pytest tests/deployment_validation --server=https://tad.prd.apps.digilab.network --tad-version=${{ steps.get_commit_hash.outputs.commit_hash }}
+        run: poetry run pytest tests/deployment_validation --server=https://tad.stag.apps.digilab.network --tad-version=${{ steps.get_commit_hash.outputs.commit_hash }}
