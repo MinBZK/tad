@@ -26,8 +26,10 @@ def run_uvicorn(uvicorn: Any) -> None:
 @pytest.fixture(scope="session")
 def get_server(request: pytest.FixtureRequest, command_line_args: dict[str, str]) -> Generator[Any, None, None]:
     if command_line_args["server"]:
+        print("COMMAND LINE")
         yield command_line_args["server"]
     else:
+        print("UVICORN")
         uvicorn_settings = request.config.uvicorn  # type: ignore
         process = Process(target=run_uvicorn, args=(uvicorn_settings,))  # type: ignore
         process.start()
@@ -103,11 +105,12 @@ def command_line_args(request: SubRequest) -> dict[str, Any]:
 
 @pytest.fixture(scope="session")
 def validate_version(command_line_args: dict[str, str], get_server: str) -> str:
-    transport = httpx.HTTPTransport(retries=5, local_address="127.0.0.1")
+    transport = httpx.HTTPTransport(retries=10, local_address="0.0.0.0")  # noqa
     response_version = "Unknown"
+    print(f"Trying server {get_server}")
     for _x in range(10):
         with httpx.Client(transport=transport, verify=False) as client:  # noqa: S501
-            response = client.get(f"{get_server}/status/version", timeout=0.8)
+            response = client.get(f"{get_server}/health/ready", timeout=0.8)
             response_version = response.json()["version"]
             if response_version == command_line_args["version"]:
                 return response_version
