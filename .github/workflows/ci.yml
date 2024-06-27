@@ -319,7 +319,14 @@ jobs:
       - name: Install Playwright browsers
         run: poetry run playwright install --with-deps
 
+      # todo we probably want to determine the version once and store it in a reusable place (env?)
+      - name: get commit hash
+        id: get_commit_hash
+        run: |
+          echo "commit_hash=$(git describe --tags)" >> "$GITHUB_OUTPUT"
+
+
       - name: Run pytest
         # staging: https://tad.stag.apps.digilab.network
         # production: https://tad.prd.apps.digilab.network/
-        run: poetry run pytest tests/deployment_validation --server=https://tad.prd.apps.digilab.network/ --tad-version=${{ steps.get_commit_hash.outputs.commit_hash }}
+        run: poetry run pytest tests/deployment_validation --server=https://tad.prd.apps.digilab.network --tad-version=${{ steps.get_commit_hash.outputs.commit_hash }}
