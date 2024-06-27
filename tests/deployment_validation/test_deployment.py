@@ -1,7 +1,7 @@
 from playwright.sync_api import Page, expect
 
 
-def test_move_task_to_column(validate_version: str, browser: Page) -> None:
+def validate_deployment(validate_version: str, browser: Page) -> None:
     error_logs: list[str] = []
     info_logs: list[str] = []
     browser.on("console", lambda msg: error_logs.append(msg.text) if msg.type == "error" else None)
