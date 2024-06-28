@@ -85,9 +85,9 @@ def browser(playwright: Playwright, request: SubRequest, get_server: str) -> Gen
     context = browser.new_context(base_url=get_server)
     page = context.new_page()
 
-    transport = httpx.HTTPTransport(retries=5, local_address="127.0.0.1")
+    transport = httpx.HTTPTransport(retries=5, local_address="0.0.0.0")  # noqa: S104
     with httpx.Client(transport=transport, verify=False) as client:  # noqa: S501
-        client.get(f"{get_server}/", timeout=0.8)
+        client.get(f"{get_server}/", timeout=2)
 
     yield page
     browser.close()
@@ -105,17 +105,16 @@ def command_line_args(request: SubRequest) -> dict[str, Any]:
 
 @pytest.fixture(scope="session")
 def validate_version(command_line_args: dict[str, str], get_server: str) -> str:
-    transport = httpx.HTTPTransport(retries=10, local_address="0.0.0.0")  # noqa
+    transport = httpx.HTTPTransport(retries=10, local_address="0.0.0.0")  # noqa: S104
     response_version = "Unknown"
-    print(f"Trying server {get_server}")
     for _x in range(10):
         with httpx.Client(transport=transport, verify=False) as client:  # noqa: S501
-            response = client.get(f"{get_server}/health/ready", timeout=0.8)
+            response = client.get(f"{get_server}/health/ready", timeout=5)
             response_version = response.json()["version"]
             if response_version == command_line_args["version"]:
+                print("All is ok, we carry on")
                 return response_version
-            else:
-                sleep(6)
+            sleep(6)
     raise TestError(
         f"Server is running version {response_version} instead of expected version {command_line_args['version']}"
     )
