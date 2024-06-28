@@ -33,6 +33,7 @@ class Settings(BaseSettings):
 
     DEBUG: bool = False
     AUTO_CREATE_SCHEMA: bool = False
+    TRUNCATE_TABLES: bool = False
 
     # todo(berry): create submodel for database settings
     APP_DATABASE_SCHEME: DatabaseSchemaType = "sqlite"
