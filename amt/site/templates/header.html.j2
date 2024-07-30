@@ -68,16 +68,4 @@
         </ul>
       </nav>
     </div>
-    <div class="header_nav">
-        <div class="language_selection">
-            <span>{% trans %}Language{% endtrans %}:</span>
-
-            {% for available_translation in available_translations %}
-            <a {% if available_translation==language %}class="selected" {% endif %}
-                id="langselect-{{ available_translation }}"
-                href="javascript:setCookie('lang','{{ available_translation }}',9999); window.location.reload()">{{
-                available_translation }}</a>
-            {% endfor %}
-        </div>
-    </div>
 </header>
