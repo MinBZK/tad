@@ -1,0 +1,15 @@
+{
+  "utrecht": {
+    "focus": {
+      "background-color": {},
+      "border-color": {},
+      "border-style": {},
+      "box-shadow-color": {},
+      "box-shadow-spread-radius": {},
+      "outline-color": { "value": "{rvo.color.hemelblauw}" },
+      "outline-offset": { "value": "3px" },
+      "outline-style": { "value": "solid" },
+      "outline-width": { "value": "2px" }
+    }
+  }
+}

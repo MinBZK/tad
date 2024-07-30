@@ -1,0 +1,65 @@
+{
+  "rvo": {
+    "alert": {
+      "gap": {
+        "value": "calc({rvo.space.2xs} + {rvo.space.xs})"
+      },
+      "padding-block-end": { "value": "{rvo.space.xl}" },
+      "padding-block-start": { "value": "{rvo.space.xl}" },
+      "padding-inline-end": { "value": "{rvo.space.xl}" },
+      "padding-inline-start": { "value": "{rvo.space.xl}" },
+      "fieldset-margin": { "value": "-{rvo.space.xl}" },
+      "line-height": { "value": "{rvo.line-height.md}" },
+      "info": {
+        "background-color": { "value": "{rvo.color.hemelblauw-300}" }
+      },
+      "warning": {
+        "background-color": { "value": "{rvo.color.donkergeel-300}" }
+      },
+      "error": {
+        "background-color": { "value": "{rvo.color.rood-300}" }
+      },
+      "success": {
+        "background-color": { "value": "{rvo.color.groen-300}" }
+      },
+      "padding": {
+        "xs": {
+          "padding-block-end": { "value": "{rvo.space.xs}" },
+          "padding-block-start": { "value": "{rvo.space.xs}" },
+          "padding-inline-end": { "value": "{rvo.space.xs}" },
+          "padding-inline-start": { "value": "{rvo.space.xs}" }
+        },
+        "sm": {
+          "padding-block-end": { "value": "{rvo.space.sm}" },
+          "padding-block-start": { "value": "{rvo.space.sm}" },
+          "padding-inline-end": { "value": "{rvo.space.sm}" },
+          "padding-inline-start": { "value": "{rvo.space.sm}" }
+        },
+        "md": {
+          "padding-block-end": { "value": "{rvo.space.md}" },
+          "padding-block-start": { "value": "{rvo.space.md}" },
+          "padding-inline-end": { "value": "{rvo.space.md}" },
+          "padding-inline-start": { "value": "{rvo.space.md}" }
+        },
+        "lg": {
+          "padding-block-end": { "value": "{rvo.space.lg}" },
+          "padding-block-start": { "value": "{rvo.space.lg}" },
+          "padding-inline-end": { "value": "{rvo.space.lg}" },
+          "padding-inline-start": { "value": "{rvo.space.lg}" }
+        },
+        "xl": {
+          "padding-block-end": { "value": "{rvo.space.xl}" },
+          "padding-block-start": { "value": "{rvo.space.xl}" },
+          "padding-inline-end": { "value": "{rvo.space.xl}" },
+          "padding-inline-start": { "value": "{rvo.space.xl}" }
+        },
+        "2xl": {
+          "padding-block-end": { "value": "{rvo.space.2xl}" },
+          "padding-block-start": { "value": "{rvo.space.2xl}" },
+          "padding-inline-end": { "value": "{rvo.space.2xl}" },
+          "padding-inline-start": { "value": "{rvo.space.2xl}" }
+        }
+      }
+    }
+  }
+}

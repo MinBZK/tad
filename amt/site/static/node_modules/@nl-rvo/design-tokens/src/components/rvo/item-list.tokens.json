@@ -1,0 +1,12 @@
+{
+  "rvo": {
+    "item-list": {
+      "border-width": { "value": "1px" },
+      "border-style": { "value": "solid" },
+      "border-color": { "value": "{rvo.color.grijs-200}" },
+      "gap": { "value": "{rvo.space.sm}" },
+      "padding-block-end": { "value": "{rvo.space.sm}" },
+      "padding-block-start": { "value": "{rvo.space.sm}" }
+    }
+  }
+}

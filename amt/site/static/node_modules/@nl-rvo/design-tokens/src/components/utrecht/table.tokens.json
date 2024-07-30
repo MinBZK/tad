@@ -1,0 +1,56 @@
+{
+  "utrecht": {
+    "table": {
+      "border-color": {},
+      "border-width": {},
+      "font-family": {},
+      "font-size": { "value": "{rvo.font-size.md}" },
+      "margin-block-end": {},
+      "margin-block-start": {},
+      "caption": {
+        "font-weight": {},
+        "font-family": {},
+        "font-size": {},
+        "color": {},
+        "line-height": {},
+        "text-align": {},
+        "margin-block-end": {}
+      },
+      "header": {
+        "font-weight": {},
+        "background-color": { "value": "{rvo.color.grijs-100.value}" },
+        "color": { "value": "{rvo.color.grijs-700.value}" },
+        "text-transform": {},
+        "border-block-end-color": {},
+        "border-block-end-width": {}
+      },
+      "header-cell": {
+        "font-size": { "value": "{rvo.font-weight.bold}" },
+        "font-weight": {},
+        "color": {},
+        "text-transform": {}
+      },
+      "cell": {
+        "line-height": { "value": "20px" },
+        "padding-block-end": { "value": "{rvo.space.xs}" },
+        "padding-block-start": { "value": "{rvo.space.xs}" },
+        "padding-inline-end": { "value": "{rvo.space.md}" },
+        "padding-inline-start": { "value": "{rvo.space.md}" }
+      },
+      "row": {
+        "border-block-end-color": { "value": "{rvo.color.grijs-100.value}" },
+        "border-block-end-width": { "value": "1px" },
+        "padding-inline-end": {},
+        "padding-inline-start": {},
+        "alternate-odd": {
+          "background-color": {},
+          "color": {}
+        },
+        "alternate-even": {
+          "background-color": {},
+          "color": {}
+        }
+      }
+    }
+  }
+}

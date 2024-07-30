@@ -1,0 +1,12 @@
+{
+  "rvo": {
+    "skip-link": {
+      "background-color": { "value": "{rvo.color.hemelblauw}" },
+      "font-size": { "value": "{rvo.size.lg}" },
+      "padding-block-start": { "value": "{rvo.size.sm}" },
+      "padding-block-end": { "value": "{rvo.size.sm}" },
+      "font-weight": { "value": "{rvo.font-weight.normal}" },
+      "color": { "value": "{rvo.color.wit}" }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "rvo": {
+    "progress-tracker": {
+      "max-width": { "value": "{rvo.layout.max-width.sm}" },
+      "step": {
+        "height": { "value": "36px" },
+        "label-padding": { "value": "calc({rvo.space.xs} + {rvo.space.2xl})" },
+        "link": {
+          "padding-block-start": {},
+          "padding-block-end": { "value": "{rvo.space.3xs}" },
+          "hover": { "color": "value" }
+        },
+        "line": {
+          "width": { "value": "28px" },
+          "height": { "value": "40px" },
+          "top": { "value": "20px" },
+          "left": { "value": "0" }
+        },
+
+        "start": {
+          "font-size": { "value": "{rvo.font-size.xl}" },
+          "font-weight": { "value": "{rvo.font-weight.bold}" }
+        },
+        "end": {
+          "font-size": { "value": "{rvo.font-size.sm}" },
+          "font-weight": { "value": "{rvo.font-weight.bold}" }
+        },
+        "sm": {
+          "icon": {
+            "background-position": { "value": "9px center" }
+          },
+          "line": {
+            "width": {},
+            "height": {},
+            "top": {},
+            "left": { "value": "6px" }
+          }
+        }
+      },
+      "substep": {
+        "block-padding": { "value": "{rvo.space.xs}" }
+      }
+    }
+  }
+}

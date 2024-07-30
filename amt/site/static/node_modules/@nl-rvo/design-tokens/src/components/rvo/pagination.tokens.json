@@ -1,0 +1,13 @@
+{
+  "rvo": {
+    "pagination": {
+      "gap": { "value": "{rvo.space.sm}" },
+      "list": {
+        "margin-block-end": { "value": "0" },
+        "margin-block-start": { "value": "0" },
+        "padding-inline-start": { "value": "0" },
+        "padding-inline-end": { "value": "0" }
+      }
+    }
+  }
+}

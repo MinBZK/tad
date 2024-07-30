@@ -1,0 +1,38 @@
+{
+  "rvo": {
+    "icon": {
+      "xs": {
+        "width": { "value": "{rvo.size.xs}" },
+        "height": { "value": "{rvo.size.xs}" }
+      },
+      "sm": {
+        "width": { "value": "calc({rvo.size.2xs} + {rvo.size.xs})" },
+        "height": { "value": "calc({rvo.size.2xs} + {rvo.size.xs})" }
+      },
+      "md": {
+        "width": { "value": "{rvo.size.md}" },
+        "height": { "value": "{rvo.size.md}" }
+      },
+      "lg": {
+        "width": { "value": "{rvo.size.lg}" },
+        "height": { "value": "{rvo.size.lg}" }
+      },
+      "xl": {
+        "width": { "value": "{rvo.size.xl}" },
+        "height": { "value": "{rvo.size.xl}" }
+      },
+      "2xl": {
+        "width": { "value": "{rvo.size.2xl}" },
+        "height": { "value": "{rvo.size.2xl}" }
+      },
+      "3xl": {
+        "width": { "value": "{rvo.size.3xl}" },
+        "height": { "value": "{rvo.size.3xl}" }
+      },
+      "4xl": {
+        "width": { "value": "{rvo.size.4xl}" },
+        "height": { "value": "{rvo.size.4xl}" }
+      }
+    }
+  }
+}

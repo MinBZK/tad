@@ -1,0 +1,9 @@
+{
+  "utrecht": {
+    "heading": {
+      "color": { "value": "{rvo.color.zwart}" },
+      "font-family": {},
+      "font-weight": { "value": "{rvo.font-weight.bold}" }
+    }
+  }
+}

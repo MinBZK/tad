@@ -1,0 +1,12 @@
+{
+  "utrecht": {
+    "document": {
+      "background-color": { "value": "transparent" },
+      "color": { "value": "{rvo.color.zwart}" },
+      "font-family": { "value": "{rvo.font.sans-serif.font-family}" },
+      "font-size": { "value": "{rvo.font-size.md}" },
+      "font-weight": { "value": "{rvo.font-weight.normal}" },
+      "line-height": { "value": "{rvo.line-height.md}" }
+    }
+  }
+}

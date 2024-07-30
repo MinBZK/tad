@@ -1,0 +1,10 @@
+{
+  "utrecht": {
+    "page-footer": {
+      "background-color": { "value": "{rvo.color.logoblauw}" },
+      "color": { "value": "{rvo.color.wit}" },
+      "padding-inline-end": { "value": "{rvo.space.lg}" },
+      "padding-inline-start": { "value": "{rvo.space.lg}" }
+    }
+  }
+}

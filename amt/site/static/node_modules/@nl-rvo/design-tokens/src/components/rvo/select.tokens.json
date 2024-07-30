@@ -1,0 +1,15 @@
+{
+  "rvo": {
+    "select": {
+      "icon": {
+        "background-color": { "value": "{rvo.color.logoblauw}" },
+        "color": { "value": "{rvo.color.wit}" }
+      },
+      "outline-offset": { "value": "0" },
+      "padding-block-end": { "value": "{rvo.space.xs}" },
+      "padding-block-start": { "value": "10px" },
+      "padding-inline-end": { "value": "calc({rvo.space.2xl} + {rvo.space.md})" },
+      "padding-inline-start": { "value": "calc({rvo.space.2xs} + {rvo.space.xs})" }
+    }
+  }
+}

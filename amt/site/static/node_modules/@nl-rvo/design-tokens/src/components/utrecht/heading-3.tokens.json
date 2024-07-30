@@ -1,0 +1,13 @@
+{
+  "utrecht": {
+    "heading-3": {
+      "color": {},
+      "font-family": {},
+      "font-size": { "value": "{rvo.font-size.xl}" },
+      "font-weight": {},
+      "line-height": { "value": "{rvo.line-height.md}" },
+      "margin-block-end": { "value": "{rvo.space.sm}" },
+      "margin-block-start": {}
+    }
+  }
+}

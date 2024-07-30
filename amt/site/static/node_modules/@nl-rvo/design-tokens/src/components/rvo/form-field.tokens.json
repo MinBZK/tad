@@ -1,0 +1,9 @@
+{
+  "rvo": {
+    "form-field": {
+      "label": {
+        "font-weight": { "value": "{rvo.font-weight.bold}" }
+      }
+    }
+  }
+}

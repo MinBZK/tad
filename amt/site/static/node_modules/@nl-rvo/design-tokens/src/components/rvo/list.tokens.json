@@ -1,0 +1,12 @@
+{
+  "rvo": {
+    "list": {
+      "icon-size": { "value": "{rvo.size.xs}" },
+      "icon-gap": { "value": "{rvo.size.xs}" },
+      "icon-option-1-image": { "value": "var(--rvo-icon-delta-naar-rechts)" },
+      "icon-option-2-image": { "value": "var(--rvo-icon-pijl-naar-rechts)" },
+      "icon-option-3-image": { "value": "var(--rvo-icon-vinkje)" },
+      "zero-padding-offset": { "value": "{rvo.size.md}" }
+    }
+  }
+}

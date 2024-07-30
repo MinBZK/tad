@@ -1,0 +1,25 @@
+{
+  "rvo": {
+    "label": {
+      "color": {},
+      "font-size": { "value": "{rvo.size.md}" },
+      "font-weight": { "value": "{rvo.font-weight.bold}" },
+      "sm": {
+        "font-size": { "value": "{rvo.font-size.sm}" },
+        "font-weight": { "value": "{rvo.font-weight.normal}" }
+      },
+      "optional": {
+        "color": {},
+        "content": { "value": "' (optioneel)'" },
+        "font-size": { "value": "{rvo.font-size.xs}" },
+        "font-weight": { "value": "{rvo.font-weight.normal}" }
+      },
+      "required": {
+        "color": { "value": "{rvo.color.rood}" },
+        "content": { "value": "' *'" },
+        "font-size": { "value": "{rvo.font-size.xs}" },
+        "font-weight": { "value": "{rvo.font-weight.normal}" }
+      }
+    }
+  }
+}

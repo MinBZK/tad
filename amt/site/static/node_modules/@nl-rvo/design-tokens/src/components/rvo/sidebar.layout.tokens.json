@@ -1,0 +1,30 @@
+{
+  "rvo": {
+    "sidebar-layout": {
+      "sidebar": {
+        "background-color": { "value": "{rvo.color.grijs-100}" }
+      },
+      "content": {
+        "background-color": { "value": "{rvo.color.wit}" }
+      },
+      "sm": {
+        "padding-block-end": { "value": "{rvo.space.lg}" },
+        "padding-block-start": { "value": "{rvo.space.lg}" },
+        "padding-inline-end": { "value": "{rvo.space.sm}" },
+        "padding-inline-start": { "value": "{rvo.space.lg}" }
+      },
+      "md": {
+        "padding-block-end": { "value": "{rvo.space.xl}" },
+        "padding-block-start": { "value": "{rvo.space.xl}" },
+        "padding-inline-end": { "value": "{rvo.space.md}" },
+        "padding-inline-start": { "value": "{rvo.space.xl}" }
+      },
+      "lg": {
+        "padding-block-end": { "value": "{rvo.space.3xl}" },
+        "padding-block-start": { "value": "{rvo.space.3xl}" },
+        "padding-inline-end": { "value": "{rvo.space.xl}" },
+        "padding-inline-start": { "value": "{rvo.space.3xl}" }
+      }
+    }
+  }
+}

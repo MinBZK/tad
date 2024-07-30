@@ -1,0 +1,9 @@
+{
+  "rvo": {
+    "border-radius": {
+      "sm": { "value": "3px" },
+      "md": { "value": "5px" },
+      "xl": { "value": "10px" }
+    }
+  }
+}

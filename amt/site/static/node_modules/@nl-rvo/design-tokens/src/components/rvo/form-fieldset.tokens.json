@@ -1,0 +1,15 @@
+{
+  "rvo": {
+    "form-fieldset": {
+      "background-color": { "value": "{rvo.color.grijs-100}" },
+      "border-start-start-radius": {},
+      "border-start-end-radius": { "value": "25px" },
+      "border-end-start-radius": {},
+      "border-end-end-radius": {},
+      "padding-block-end": { "value": "calc({rvo.space.xs} + {rvo.space.md})" },
+      "padding-block-start": { "value": "calc({rvo.space.xs} + {rvo.space.xs})" },
+      "padding-inline-end": { "value": "calc({rvo.space.xs} + {rvo.space.md})" },
+      "padding-inline-start": { "value": "calc({rvo.space.xs} + {rvo.space.md})" }
+    }
+  }
+}

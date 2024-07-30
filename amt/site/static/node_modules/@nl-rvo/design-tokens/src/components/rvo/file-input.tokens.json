@@ -1,0 +1,28 @@
+{
+  "rvo": {
+    "file-input": {
+      "color": { "value": "{rvo.color.hemelblauw}" },
+      "background-color": {},
+      "font-weight": { "value": "{rvo.font-weight.bold}" },
+      "border-color": {},
+      "border-radius": {},
+      "border-width": {},
+      "padding-block-end": { "value": "10px" },
+      "padding-block-start": {},
+      "padding-inline-end": {},
+      "padding-inline-start": {},
+      "disabled": {
+        "border-color": {},
+        "border-width": {},
+        "background-color": {},
+        "color": {}
+      },
+      "focus": {
+        "outline-color": {},
+        "outline-offset": { "value": "0" },
+        "outline-style": {},
+        "outline-width": {}
+      }
+    }
+  }
+}

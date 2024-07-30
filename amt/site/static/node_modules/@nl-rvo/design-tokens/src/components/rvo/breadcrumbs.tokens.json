@@ -1,0 +1,15 @@
+{
+  "rvo": {
+    "breadcrumbs": {
+      "sm": {
+        "font-size": { "value": "{rvo.font-size.sm}" }
+      },
+      "md": {
+        "font-size": { "value": "{rvo.font-size.md}" }
+      },
+      "lg": {
+        "font-size": { "value": "{rvo.font-size.lg}" }
+      }
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "rvo": {
+    "color": {
+      "logoblauw": {
+        "value": "#154273"
+      },
+      "logoblauw-150": {
+        "value": "#DCE3EA"
+      },
+      "logoblauw-300": {
+        "value": "#B9C7D5"
+      },
+      "logoblauw-450": {
+        "value": "#95AAC0"
+      },
+      "logoblauw-600": {
+        "value": "#738EAB"
+      },
+      "logoblauw-750": {
+        "value": "#409CD5"
+      },
+      "hemelblauw": {
+        "value": "#007BC7"
+      },
+      "hemelblauw-150": {
+        "value": "#D9EBF7"
+      },
+      "hemelblauw-300": {
+        "value": "#B3D7EE"
+      },
+      "hemelblauw-450": {
+        "value": "#8CC4E6"
+      },
+      "hemelblauw-600": {
+        "value": "#66B0DD"
+      },
+      "hemelblauw-750": {
+        "value": "#507196"
+      },
+      "lichtblauw": {
+        "value": "#8FCAE7"
+      },
+      "lichtblauw-150": {
+        "value": "#EEF7FC"
+      },
+      "lichtblauw-300": {
+        "value": "#DEF0F8"
+      },
+      "lichtblauw-450": {
+        "value": "#CCE7F4"
+      },
+      "lichtblauw-600": {
+        "value": "#BCDFF1"
+      },
+      "lichtblauw-750": {
+        "value": "#ABD7ED"
+      },
+      "donkerblauw": {
+        "value": "#01689b"
+      },
+      "donkerblauw-150": {
+        "value": "#D9E9F0"
+      },
+      "donkerblauw-300": {
+        "value": "#B3D2E1"
+      },
+      "donkerblauw-450": {
+        "value": "#8CBBD2"
+      },
+      "donkerblauw-600": {
+        "value": "#67A4C3"
+      },
+      "donkerblauw-750": {
+        "value": "#418EB4"
+      },
+      "oranje": {
+        "value": "#E17000"
+      },
+      "oranje-150": {
+        "value": "#FBEAD9"
+      },
+      "oranje-300": {
+        "value": "#F6D4B3"
+      },
+      "oranje-450": {
+        "value": "#F1BF8C"
+      },
+      "oranje-600": {
+        "value": "#EDA966"
+      },
+      "oranje-750": {
+        "value": "#E89440"
+      },
+      "groen": {
+        "value": "#39870C"
+      },
+      "groen-150": {
+        "value": "#E2EDDB"
+      },
+      "groen-300": {
+        "value": "#C4DBB7"
+      },
+      "groen-450": {
+        "value": "#A6C991"
+      },
+      "groen-600": {
+        "value": "#88B76D"
+      },
+      "groen-750": {
+        "value": "#6BA549"
+      },
+      "donkergeel": {
+        "value": "#ffb612"
+      },
+      "donkergeel-150": {
+        "value": "#FFF4DB"
+      },
+      "donkergeel-300": {
+        "value": "#FFE9B8"
+      },
+      "donkergeel-450": {
+        "value": "#FFDE94"
+      },
+      "donkergeel-600": {
+        "value": "#FFD371"
+      },
+      "donkergeel-750": {
+        "value": "#FFC84D"
+      },
+      "rood": {
+        "value": "#D51B1E"
+      },
+      "rood-150": {
+        "value": "#F9DFDD"
+      },
+      "rood-300": {
+        "value": "#F3C0BC"
+      },
+      "rood-450": {
+        "value": "#EC9F99"
+      },
+      "rood-600": {
+        "value": "#E68078"
+      },
+      "rood-750": {
+        "value": "#E06056"
+      },
+      "grijs-050": {
+        "value": "#F8FAFC"
+      },
+      "grijs-100": {
+        "value": "#F1F5F9"
+      },
+      "grijs-200": {
+        "value": "#E2E8F0"
+      },
+      "grijs-300": {
+        "value": "#CBD5E1"
+      },
+      "grijs-400": {
+        "value": "#94A3B8"
+      },
+      "grijs-500": {
+        "value": "#64748B"
+      },
+      "grijs-600": {
+        "value": "#475569"
+      },
+      "grijs-700": {
+        "value": "#334155"
+      },
+      "grijs-800": {
+        "value": "#1E293B"
+      },
+      "grijs-900": {
+        "value": "#0F172A"
+      },
+      "zwart": {
+        "value": "#000000"
+      },
+      "wit": {
+        "value": "#FFFFFF"
+      }
+    }
+  }
+}
