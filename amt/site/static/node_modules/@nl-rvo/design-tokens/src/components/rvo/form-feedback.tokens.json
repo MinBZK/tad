@@ -1,0 +1,15 @@
+{
+  "rvo": {
+    "form-feedback": {
+      "line-height": { "value": "{rvo.line-height.md}" },
+      "warning": {
+        "color": {},
+        "font-weight": {}
+      },
+      "error": {
+        "color": { "value": "{rvo.color.rood}" },
+        "font-weight": { "value": "{rvo.font-weight.bold}" }
+      }
+    }
+  }
+}

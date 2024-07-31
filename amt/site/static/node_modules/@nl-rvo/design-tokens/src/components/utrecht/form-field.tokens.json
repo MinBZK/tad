@@ -1,0 +1,18 @@
+{
+  "utrecht": {
+    "form-field": {
+      "description": {
+        "margin-block-start": { "value": "0" },
+        "margin-block-end": { "value": "0" }
+      },
+      "label": {
+        "margin-block-start": { "value": "0" },
+        "margin-block-end": {
+          "value": "0"
+        }
+      },
+      "margin-block-start": {},
+      "margin-block-end": { "value": "{rvo.space.xl}" }
+    }
+  }
+}

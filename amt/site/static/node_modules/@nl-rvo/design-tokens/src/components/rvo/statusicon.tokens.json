@@ -1,0 +1,18 @@
+{
+  "rvo": {
+    "statusicon": {
+      "bevestiging": {
+        "background-color": { "value": "{rvo.color.groen}" }
+      },
+      "foutmelding": {
+        "background-color": { "value": "{rvo.color.rood}" }
+      },
+      "waarschuwing": {
+        "background-color": { "value": "{rvo.color.donkergeel}" }
+      },
+      "info": {
+        "background-color": { "value": "{rvo.color.hemelblauw}" }
+      }
+    }
+  }
+}

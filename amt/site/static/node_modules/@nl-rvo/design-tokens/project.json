@@ -1,0 +1,25 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "root": "{workspaceRoot}/proprietary/design-tokens",
+  "sourceRoot": "{projectRoot}",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/workspace:run-commands",
+      "outputs": ["{projectRoot}/dist"],
+      "options": {
+        "command": "npm run build",
+        "cwd": "proprietary/design-tokens",
+        "outputPath": "proprietary/design-tokens/dist"
+      },
+      "dependsOn": ["^build"]
+    },
+    "watch": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "npm run watch",
+        "cwd": "proprietary/design-tokens"
+      }
+    }
+  }
+}

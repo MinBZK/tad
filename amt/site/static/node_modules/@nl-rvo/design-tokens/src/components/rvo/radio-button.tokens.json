@@ -1,0 +1,19 @@
+{
+  "rvo": {
+    "radio-button": {
+      "label": {
+        "disabled": {
+          "color": { "value": "{rvo.color.grijs-300}" }
+        }
+      },
+      "hover": {
+        "border-color": {
+          "value": "{rvo.color.hemelblauw}"
+        }
+      },
+      "checked": {
+        "background": { "value": "radial-gradient(circle, {rvo.color.logoblauw} 45%, {rvo.color.wit} 50%)" }
+      }
+    }
+  }
+}

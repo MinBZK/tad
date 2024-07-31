@@ -1,0 +1,9 @@
+{
+  "rvo": {
+    "status-indicator": {
+      "width": { "value": "3px" },
+      "height": { "value": "{rvo.size.xl}" },
+      "border-radius": { "value": "{rvo.border-radius.md}" }
+    }
+  }
+}

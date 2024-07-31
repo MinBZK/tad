@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0-alpha.360",
+  "author": "Community for NL Design System",
+  "description": "RVO assets",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "name": "@nl-rvo/assets",
+  "main": "index.css",
+  "keywords": [
+    "nl-design-system",
+    "nl-rvo"
+  ],
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "generate": "node generate.js"
+  },
+  "files": [
+    "fonts/",
+    "icons/",
+    "images/"
+  ],
+  "repository": {
+    "type": "git+ssh",
+    "url": "git@github.com:nl-design-system/rvo.git"
+  },
+  "devDependencies": {
+    "sass": "^1.69.7"
+  },
+  "gitHead": "79e09532045fb61e387ceccb233950e04ac069e7"
+}

@@ -1,0 +1,16 @@
+{
+  "rvo": {
+    "space": {
+      "3xs": { "value": "2px" },
+      "2xs": { "value": "4px" },
+      "xs": { "value": "8px" },
+      "sm": { "value": "12px" },
+      "md": { "value": "16px" },
+      "lg": { "value": "18px" },
+      "xl": { "value": "24px" },
+      "2xl": { "value": "32px" },
+      "3xl": { "value": "64px" },
+      "4xl": { "value": "128px" }
+    }
+  }
+}

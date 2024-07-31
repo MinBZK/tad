@@ -2,7 +2,7 @@ window.onload = function () {
 
   // TODO (robbert): we need (better) event handling and displaying of server errors
   document.body.addEventListener('htmx:sendError', function(evt) {
-    document.getElementById("errorContainer").innerHTML = "<h1>Placeholder: Error while connecting to server</h1";
+    document.getElementById("errorContainer").innerHTML = "Placeholder: Error while connecting to server";
   });
 
   const columns = document.getElementsByClassName("progress_cards_container");

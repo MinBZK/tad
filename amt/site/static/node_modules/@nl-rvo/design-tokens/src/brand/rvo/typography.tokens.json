@@ -1,0 +1,74 @@
+{
+  "rvo": {
+    "font": {
+      "sans-serif": {
+        "font-family": {
+          "value": "'RijksoverheidSansWebText'"
+        }
+      },
+      "sans-serif-fallback": {
+        "font-family": {
+          "value": "'Verdana', 'Calibri', 'Arial', sans-serif"
+        }
+      },
+      "serif": {
+        "font-family": {
+          "value": "'RijksoverheidSerifWeb'"
+        }
+      },
+      "serif-fallback": {
+        "font-family": {
+          "value": "'Times New Roman', serif"
+        }
+      }
+    },
+    "font-size": {
+      "2xs": {
+        "value": "0.625rem"
+      },
+      "xs": {
+        "value": "0.75rem"
+      },
+      "sm": {
+        "value": "0.875rem"
+      },
+      "md": {
+        "value": "1rem"
+      },
+      "lg": {
+        "value": "1.125rem"
+      },
+      "xl": {
+        "value": "1.25rem"
+      },
+      "2xl": {
+        "value": "1.5rem"
+      },
+      "3xl": {
+        "value": "2rem"
+      },
+      "4xl": {
+        "value": "3rem"
+      }
+    },
+    "font-weight": {
+      "normal": {
+        "value": "400"
+      },
+      "semibold": {
+        "value": "550"
+      },
+      "bold": {
+        "value": "700"
+      },
+      "extrabold": {
+        "value": "800"
+      }
+    },
+    "line-height": {
+      "sm": { "value": "125%" },
+      "md": { "value": "150%" },
+      "lg": { "value": "175%" }
+    }
+  }
+}

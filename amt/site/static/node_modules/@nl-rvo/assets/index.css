@@ -1,0 +1,8 @@
+@import "fonts/index.css";
+@import "icons/index.css";
+@import "images/index.css";
+
+/* Fix for CDN serving */
+@import "assets/fonts/index.css";
+@import "assets/icons/index.css";
+@import "assets/images/index.css";

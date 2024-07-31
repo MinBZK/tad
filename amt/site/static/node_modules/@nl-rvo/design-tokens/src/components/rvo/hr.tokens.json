@@ -1,0 +1,9 @@
+{
+  "rvo": {
+    "horizontal-rule": {
+      "border-width": { "value": "1px" },
+      "border-style": { "value": "solid" },
+      "border-color": { "value": "{rvo.color.grijs-200}" }
+    }
+  }
+}

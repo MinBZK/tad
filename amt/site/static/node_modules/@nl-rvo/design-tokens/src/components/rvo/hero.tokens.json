@@ -1,0 +1,23 @@
+{
+  "rvo": {
+    "hero": {
+      "border-end-end-radius": { "value": "50px" },
+      "title": {
+        "background-color": { "value": "{rvo.color.hemelblauw}" },
+        "border-start-end-radius": { "value": "50px" },
+        "color": { "value": "{rvo.color.wit}" },
+        "font-weight": { "value": "{rvo.font-weight.normal}" },
+        "padding-block-end": { "value": "{rvo.space.xl}" },
+        "padding-block-start": { "value": "{rvo.space.xl}" },
+        "padding-inline-end": { "value": "{rvo.space.xl}" },
+        "padding-inline-start": { "value": "{rvo.space.xl}" }
+      },
+      "subtitle": {
+        "font-size": { "value": "{rvo.font-size.lg}" },
+        "font-style": { "value": "italic" },
+        "font-weight": { "value": "{rvo.font-weight.normal}" },
+        "line-height": { "value": "{rvo.line-height.md}" }
+      }
+    }
+  }
+}

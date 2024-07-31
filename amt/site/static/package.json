@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "@nl-rvo/assets": "1.0.0-alpha.360",
+    "@nl-rvo/component-library-css": "1.0.0",
+    "@nl-rvo/design-tokens": "1.0.0-alpha.407"
+  }
+}

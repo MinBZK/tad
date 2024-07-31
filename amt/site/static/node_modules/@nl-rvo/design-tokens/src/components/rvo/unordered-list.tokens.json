@@ -1,0 +1,17 @@
+{
+  "rvo": {
+    "unordered-list": {
+      "margin-block-start": { "value": "0" },
+      "margin-block-end": { "value": "{rvo.space.md}" },
+      "item": {
+        "margin-block-start": {},
+        "margin-block-end": {},
+        "padding-inline-start": { "value": "{rvo.space.xs}" }
+      },
+      "marker": {
+        "color": {}
+      },
+      "padding-inline-start": { "value": "{rvo.space.2xl}" }
+    }
+  }
+}
