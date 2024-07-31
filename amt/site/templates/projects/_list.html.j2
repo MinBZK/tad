@@ -1,4 +1,29 @@
+<li class="rvo-item-list__item">
+    <div class="rvo-layout-row rvo-layout-gap--sm">
+      <div class="rvo-status-indicator"></div>
+      <a class="rvo-link rvo-link--no-underline rvo-link--zwart" href="#">
+        Project Gemeente Amsterdam development team
+      </a>
+    </div>
+  </li>
+  <li class="rvo-item-list__item">
+    <div class="rvo-layout-row rvo-layout-gap--sm">
+      <div class="rvo-status-indicator"></div>
+      <a class="rvo-link rvo-link--no-underline rvo-link--zwart" href="#">
+        IAMA for our model
+      </a>
+    </div>
+  </li>
+  <li class="rvo-item-list__item">
+    <div class="rvo-layout-row rvo-layout-gap--sm">
+      <div class="rvo-status-indicator"></div>
+      <a class="rvo-link rvo-link--no-underline rvo-link--zwart" href="#">
+        Phasing out of our Algorithm
+      </a>
+    </div>
+  </li>
 {% for project in projects %}
+<li><a href="/project/{{ project.id }}">Project Gemeente Amsterdam development team</a></li>
 <li><a href="/project/{{ project.id }}">{{ project.name }}</a></li>
 {% endfor %}
 {% if projects|length > 0 %}

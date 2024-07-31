@@ -6,18 +6,13 @@
           <div class="rvo-form">
             <div class="rvo-layout-column rvo-layout-gap--sm">
               <div class="rvo-form-intro">
-                <h1 class="utrecht-heading-1"> {% trans %}New project{% endtrans %}</h1>
+                <h1 class="utrecht-heading-1"> {% trans %}Create new project{% endtrans %}</h1>
               </div>
               <form class="rvo-layout-spacer rvo-layout-spacer--2xl" hx-ext="json-enc" hx-post="/projects/new" hx-target-error="#errorContainer" hx-swap="innerHTML" method="post">
                 <div class="utrecht-form-fieldset rvo-form-fieldset">
                   <fieldset
                     class="utrecht-form-fieldset__fieldset utrecht-form-fieldset--html-fieldset"
                   >
-                    <legend
-                      class="utrecht-form-fieldset__legend utrecht-form-fieldset__legend--html-legend"
-                    >
-                      Keyboard inputs
-                    </legend>
                       <div
                       role="group"
                       aria-labelledby="fieldId-label"
@@ -85,4 +80,3 @@
       </main>
     </div>
 {% endblock %}
-

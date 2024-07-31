@@ -1,10 +1,14 @@
 {% extends 'layouts/base.html.j2' %}
 
 {% block content %}
-<h1 class="margin-bottom--large">{% trans %}Projects{% endtrans %}</h1>
-<ul class="project-list">
-    {% include 'projects/_list.html.j2' %}
-</ul>
+ <main class="rvo-max-width-layout rvo-max-width-layout--sm">
+      <div class="rvo-content">
+        <h1 class="utrecht-heading-1">{% trans %}Projects{% endtrans %}</h1>
+        <ul class="rvo-item-list">
+        {% include 'projects/_list.html.j2' %}
+        </ul>
+      </div>
+    </main>
 
 <div id="errorContainer"></div>
 {% endblock %}
